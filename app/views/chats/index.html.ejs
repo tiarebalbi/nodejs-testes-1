@@ -1,0 +1,36 @@
+<script type="text/javascript">
+	$('.btn').button();
+</script>
+<div class="row-fluid">
+	<div class="span8">
+		<div class="hero-unit">
+			<div class="page-header">
+				<h2>5. Sala 1 <small>22 usuário(s) connectado(s)</small></h2>
+	        </div>
+			<blockquote>
+			  <p>Mensagem 1</p>
+			  <small>25/08 às 17:30 por <cite title="Tiarê Balbi">Tiarê Balbi</cite></small>
+			</blockquote>
+
+			<blockquote class="pull-right">
+			  <p>Mensagem 2</p>
+			  <small>25/08 às 17:30 por <cite title="Tiarê Balbi">Sistema</cite></small>
+			</blockquote>
+		</div>
+		<div class="hero-unit">
+			<div class="input-append">
+			  
+			  <textarea name="msg" class="span12" placeholder="Digite sua mensagem"></textarea>
+			  <button class="btn btn-primary btn-large" type="button"  data-loading-text="Enviando..."></span>Enviar!</button>
+			</div>
+		</div>
+	</div>
+	<div class="span4">
+		<div class="hero-unit">
+			<ul class="nav nav-tabs nav-stacked">
+			  <li><%- linkTo('Tiarê Balbi Bonamini', '/chats') %></li>
+			  <li><%- linkTo('Sistema 1', '/chats') %></li>
+			</ul>
+		</div>
+	</div>
+</div>

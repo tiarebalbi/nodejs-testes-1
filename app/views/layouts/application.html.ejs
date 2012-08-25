@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Geddy App | This app uses Geddy.js</title>
+    <title>Tiarê Balbi | NodeJS APP de Teste 1</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -29,22 +29,21 @@
   <body>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container">
+        <div class="container-fluid">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="i-bar"><i class="icon-chevron-down icon-white"></i></span>
           </a>
-          <%- linkTo('Geddy App', '/', { class: 'brand' }) %>
+          <%- linkTo('Tiarê Balbi Bonamini', '/', { class: 'brand' }) %>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><%- linkTo('Home', '/') %></li>
-              <li><%- linkTo('Tutorial', 'http://geddyjs.org/tutorial.html') %></li>
-              <!--<li><%- linkTo('Docs', 'http://geddyjs.org/docs.html') %></li>-->
+              <li><%- linkTo('Chat', '/chats') %></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <%- yield(); %>
     </div>
   </body>
