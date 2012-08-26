@@ -1,5 +1,10 @@
+
 <script type="text/javascript">
-	$('.btn').button();
+	$(document).ready(function() {
+		$(".enviarMsgChat").click(function(){
+			alert($("textarea[name=msg]").val());
+		});
+	});
 </script>
 <div class="row-fluid">
 	<div class="span8">
@@ -21,7 +26,7 @@
 			<div class="input-append">
 			  
 			  <textarea name="msg" class="span12" placeholder="Digite sua mensagem"></textarea>
-			  <button class="btn btn-primary btn-large" type="button"  data-loading-text="Enviando..."></span>Enviar!</button>
+			  <button class="btn btn-primary btn-large enviarMsgChat" type="button"  data-loading-text="Enviando..."></span>Enviar!</button>
 			</div>
 		</div>
 	</div>

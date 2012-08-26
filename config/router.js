@@ -33,5 +33,6 @@ router.match('/').to({controller: 'Main', action: 'index'});
 // router.resource('hemispheres');
 
 router.resource('chats');
+router.resource('configs');
 exports.router = router;
 
